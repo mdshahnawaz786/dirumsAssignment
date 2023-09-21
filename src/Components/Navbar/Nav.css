@@ -1,0 +1,36 @@
+.Navbar {
+  height: 10%;
+  width: 100%;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addTaskButtonContainer {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.profileContainer {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.profileContainer img {
+  height: 70%;
+  width: 10%;
+  border-radius: 50%;
+}
+.addTaskButtonContainer button {
+  background-color: #219ebc;
+  color: white;
+  height: 60%;
+  width: 30%;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
